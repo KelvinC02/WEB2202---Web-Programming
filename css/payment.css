@@ -1,0 +1,73 @@
+.billing-container{
+    position:relative;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    padding: 20px 30px;
+    max-width: 100%;
+    margin: 100px 200px 100px 240px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+.col-50{
+    padding: 0 16px;
+}
+
+.billing-container input[type=text] {
+    width: 97%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.web-color{
+    width: 100%;
+    min-height: 100vh;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+
+
+
+}
+.billing_btn{
+    display: inline-block;
+    border: 1px solid white;
+    background:rgba(91, 91, 249);
+    color: white;
+    padding: 13px 100px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100%;
+    font-size:20px;
+
+}
+.billing_btn:hover{
+    background-color: #000;
+}
